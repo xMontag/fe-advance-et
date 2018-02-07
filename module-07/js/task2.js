@@ -14,16 +14,16 @@
         <img class="card-img" src="./img/6953237.jpg">
       </div>
       <div class="card-bot-container">
-        <h4 class="card-name">Claudia Cardinale</h4>
-        <p class="card-title">29 · Philodelphia, PA</p>
+        <h4 class="card-name">${name} ${sename}</h4>
+        <p class="card-title">${age} · ${address}</p>
         <div class="card-likebox">
           <div class="card-likebox-item">
             <div class="card-likebox-item-img icon-strawberry"></div>
-            <div class="card-likebox-item-count">19</div>
+            <div class="card-likebox-item-count">${strawberryCount}</div>
           </div>
           <div class="card-likebox-item">
             <div class="card-likebox-item-img icon-lemon"></div>
-            <div class="card-likebox-item-count">5</div>
+            <div class="card-likebox-item-count">${lemonCount}</div>
           </div>
           <div class="card-likebox-item">
             <div class="card-likebox-item-img icon-hand"></div>
