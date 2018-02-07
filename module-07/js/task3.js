@@ -23,7 +23,7 @@
       </div>
       <div class="card-bot-container">
         <h4 class="card-name">${user.name}</h4>
-        <p class="card-title">${user.age} · ${user.location}, PA</p>
+        <p class="card-title">${user.age} · ${user.location}</p>
         <div class="card-likebox">
           <div class="card-likebox-item">
             <div class="card-likebox-item-img icon-strawberry"></div>
