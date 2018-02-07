@@ -1,0 +1,117 @@
+@font-face {
+  font-family: 'Panton Light';
+  src: url('../fonts/Panton Light.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Panton Light Italic';
+  src: url('../fonts/Panton Light Italic.otf');
+  font-weight: normal;
+  font-style: italic;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  background-color: #e6e6e6;
+  padding: 50px;
+  height: 3000px;;
+}
+
+.task-title {
+  margin: 20px;
+  font-family: monospace;
+  font-size: 30px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  width: 310px;
+  background-color: #fff;
+  border-radius: 10px; 
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0 10px;
+}
+
+.card-img {
+  position: absolute;
+  height: 100%;
+  left: 50%;
+  transform: translate(-50%)
+}
+
+.card-img-container {
+  /*outline: 1px solid red;*/
+  position: relative;
+  font-size: 0;
+  height: 310px;
+}
+
+.card-name {
+  font-family: 'Panton Light';
+  font-size: 22px;
+  letter-spacing: 1.1px;
+  color: #50505A;
+  text-align: center;
+  padding: 25px 20px 5px;
+}
+
+.card-title {
+  font-family: 'Panton Light Italic';
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: #50505A;
+}
+
+.card-bot-container {
+  
+}
+
+.card-likebox {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 60px;
+}
+
+.card-likebox-item {
+  display: flex;
+}
+
+.card-likebox-item-count {
+  font-family: 'Panton Light Italic';
+  color: #50505A;
+  line-height: 40px;
+  margin-left: 5px;
+}
+
+.card-likebox-item-img {
+  height: 32px;
+  width: 32px;
+  background-size: cover;
+}
+
+.icon-strawberry {
+  background-image: url(../img/icons/strawberry.png);
+}
+
+.icon-lemon {
+  background-image: url(../img/icons/lemon.png);
+}
+
+.icon-hand {
+  background-image: url(../img/icons/hand.png);
+}
